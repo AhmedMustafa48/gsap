@@ -1,7 +1,8 @@
-gsap.from("box1",{
-    opacity:0,
-    duration:2,
+gsap.to("#box1",{
+    x:1200,
+    duration:1,
     delay:1,
-    y:20,
-    stagger:0.3,
+    rotate:360,
+    repeat:-1,
+    yoyo:true,
 })
