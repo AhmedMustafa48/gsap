@@ -17,8 +17,13 @@ body{
     width: 300px;
     background-color: crimson;
 }
-/* #box2{
+#box2{
     height: 300px;
     width: 300px;
     background-color: cyan;
-} */
+}
+#box3{
+    height: 300px;
+    width: 300px;
+    background-color: white;
+}
