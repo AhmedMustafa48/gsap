@@ -11,7 +11,11 @@ tl.from("h4", {
   duration: 1,
   stagger:0.3,
 });
-
+tl.from("h1",{
+    y:20,
+    opacity:0,
+    scale:0.2,
+})
 
 // gsap.to("#box1",{
 //     x:1500,
