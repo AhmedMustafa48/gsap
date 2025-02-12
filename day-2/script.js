@@ -73,3 +73,4 @@ gsap.to("#page2 h1",{
     scrub:2,
   }
 })
+// =================== Day 2 ended
