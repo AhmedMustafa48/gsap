@@ -12,7 +12,8 @@ html, body{
 body{
     background:#111;
 }
-#page1{
+
+/* #page1{
     height: 100%;
     width: 100%;
     background-color: lightblue;
@@ -54,4 +55,4 @@ h2{
     background-color: yellow;
     padding: 10px;
 
-}
+} */
