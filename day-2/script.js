@@ -1,54 +1,59 @@
-var tl= gsap.timeline();
-tl.from("h2",{
-    y:-20,
-    opacity:0,
-    duration:1,
-    delay:1.5,
-})
-tl.from("h4", {
-  y: -20,
-  opacity: 0,
-  duration: 1,
-  stagger:0.3,
-});
-tl.from("h1",{
-    y:20,
-    opacity:0,
-    scale:0.2,
-})
-
-// gsap.to("#box1",{
-//     x:1500,
-//     duration:1.5,
-//     delay:1,
-//     rotate:360,
+// gsap.from("#page1 #box",{
+//   scale:0,
+//   delay:1,
+//   duration:2,
+//   rotation:360,
 // })
-// gsap.to("#box2", {
-//   x: 1500,
-//   backgroundColor:"yellow",
-//   duration: 1.5,
-//   delay: 2.5,
-//   rotate: 360,
+// gsap.from("#page2 #box", {
+//   scale: 0,
+//   duration: 2,
+//   rotation: 360,
+//   scrollTrigger:{
+//     trigger:"#page2 #box",
+//     scroller:"body",
+//     markers:true,
+//     start:"top 60%"
+//   }
 // });
+//  ================================================another
 
-// gsap.to("#box3", {
-//   x: 1500,
-//   scale:0.5,
-//   borderRadius:"50%",
-//   duration: 1.5,
-//   delay: 4,
-//   rotate: 360,
-// });
-// var tl=gsap.timeline()
+// gsap.from("#page2 h1",{
+//   opacity:0,
+//   duration:2,
+//   x:500,
+//   scrollTrigger:{
+//     trigger:"#page2 h1",
+//     scroller:"body",
+//     markers:true,
+//     start:"top 50%"
+//   }
+// }) 
+// gsap.from("#page2 h2", {
+//   opacity: 0,
+//   duration: 2,
+//   x: -500,
+//   scrollTrigger: {
+//     trigger: "#page2 h2",
+//     scroller: "body",
+//     markers: true,
+//     start: "top 50%",
+//   },
+// }); 
 
-// tl.to("#box1",{
-//     x:1500,
-//     rotate:360,
-//     duration:1.5,
+// ======================================================another
+
+// gsap.from("#page2 #box",{
+//     scale:0,
+//     opacity:0,
+//     duration:1,
+//     rotate:720,
+//     scrollTrigger:{
+//       trigger:"#page2 #box",
+//       scroller:"body",
+//       markers:true,
+//       start:"top 50%",
+//       end:"top 30%",
+//       scrub:3,
+//       pin:true,
+//     }
 // })
-// tl.to("#box2", {
-//   x: 1500,
-//   rotate: 360,
-//   duration: 1.5,
-// });
-
